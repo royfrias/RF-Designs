@@ -101,9 +101,10 @@ p {
 }
 
 .button.btn-slider {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   padding: 10px 40px;
-  color: #fff;
+  background-color: #fff;
+  color: #323232;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -197,80 +198,7 @@ p {
   background-image: url('../images/testimonial-bg.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  box-sizing: border-box;
 }
-
-.skill-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 80px;
-  margin: auto;
-}
-
-.roy-pic-right {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-.skill-container .left{
-  width: 45%;
-  padding:16px;
-}
-
-.skill-container .right {
-  width: 55%;
-}
-
-.roy-pic-right img{
-  justify-content: flex-end;
-}
-
-
-
-
-.progress-bar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  color:#fff;
-  text-align: center;
-  white-space: nowrap;
-
-}
-
-.skill-container span {
-  color:#4e4e4e;
-}
-
-.skill-container .progress {
-  background-color: #cde1f8;
-  margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: 0.7rem
-}
-
-.skill-container .progress .progress-bar {
-  height:0.7rem;
-  background-color: #282828;
-}
-
-
-
-.pull-right {
-  float: right;
-}
-
-.title-s {
-  font-weight: 600;
-  color: #1e1e1e;
-  font-size: 1.1rem
-}
-
-
 
 .section.best-team {
   margin-top: 0px;
@@ -311,51 +239,71 @@ p {
 }
 
 
-.about .photo-about-me {
+/* .about .photo-about-me {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-}
+} */
 
-.about .photo-about-me .left img {
+/* .about .photo-about-me .left img {
   height: 400px;
   width: 400px;
   object-fit: cover;
   border-radius: 80%;
-   /* border-bottom-left-radius: 10px; */
-  /* padding-bottom: 40px; */
-}
 
-.about .photo-about-me .right .text {
+} */
+
+/* .about .photo-about-me .right .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
-}
+} */
 
-.about .photo-about-me .right p {
+/* .about .photo-about-me .right p {
     text-align: justify;
     font-size: 16px;
-}
+} */
 
-.about .photo-about-me .left{
+/* .about .photo-about-me .left{
   width: 45%;
-}
+} */
 
-.about .photo-about-me .right{
+/* .about .photo-about-me .right{
   width: 55%;
-}
+} */
+
 
 .aboutus {
   padding-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.aboutus div {
+  width: 55%;
+}
+
+.aboutus span {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.aboutus p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5 ;
+}
+
+
 .aboutimg {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  width: 35%;
 }
 
 
@@ -532,6 +480,7 @@ p {
 
 .portfolio-img {
   padding-bottom: 16px;
+ 
 }
 
 .portfolio-img:hover {
@@ -581,6 +530,7 @@ p {
 
 .brand-logo {
   margin-top: 13px;
+  margin-left: 50px;
 }
 
 .brand-logo:hover {

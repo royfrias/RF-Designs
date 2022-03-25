@@ -596,50 +596,6 @@ textarea.w-select {
   .w-container {
     max-width: 728px;
   }
-  .about .photo-about-me {
-    display: flex; 
-    flex-direction: column;
-
-  }
- .about .photo-about-me .left  {
-    width: 55%;
-    border-radius: 50%;
-    padding-bottom:20px;
-}
-
-.about .aboutimg{
-  height: 325px;
-  border-radius: 50%;
-}
-
-.skill-container {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  /* margin: auto; */
-}
-
-
-.skill-container .roy-pic-right {
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 6px;
-    margin-left: 35px;
-    padding-bottom: 16px;
-    border-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px ;
-}
-
-
-
-/* img .aboutimg {
-  height: 325px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 50%;
-} */
   .w-hidden-main {
     display: inherit !important;
   }
@@ -689,6 +645,14 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
+
+  .aboutus {
+    display:flex;
+    flex-direction: column; 
+  }
+  .aboutus img {
+    height: 500px;
+  }
   .w-hidden-main {
     display: inherit !important;
   }
@@ -959,7 +923,7 @@ textarea.w-select {
   bottom: -100%;
   top: -100%;
   left: -100%;
-  object-fit: cover;
+  object-fit: scale-down;
   z-index: -100;
 }
 .w-background-video > video::-webkit-media-controls-start-playback-button {
@@ -1669,6 +1633,7 @@ textarea.w-select {
 .w-nav-menu {
   position: relative;
   float: right;
+  margin-right: 50px
 }
 [data-nav-menu-open] {
   display: block !important;
