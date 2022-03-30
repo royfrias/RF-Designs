@@ -304,10 +304,10 @@ p {
 
 
 .aboutimg {
-  margin-top: 0px;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 40px;
   width: 35%;
+  border-radius: 20px;
 }
 
 
@@ -754,11 +754,17 @@ p {
   }
 
   .aboutimg {
-    padding-top: 30px;
+    /* padding-top: 30px; */
+
     height: 400px;
     width: 400px;
-    object-fit: cover;
-    border-radius: 6px;
+    /* object-fit: cover; */
+    border-radius: 15px;
+    
+  }
+
+  .aboutinfo{
+    margin-bottom: 20px;
   }
 
   .testimonial-box {
