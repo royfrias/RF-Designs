@@ -5,6 +5,8 @@ body {
   line-height: 20px;
 }
 
+
+
 h1 {
   margin: 20px 0px 10px;
   font-family: 'Open Sans', sans-serif;
@@ -317,6 +319,16 @@ p {
   border-radius: 20px;
 }
 
+.aboutproject {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: auto;
+  
+}
+
 
 .service-icon {
   padding-top: 30px;
@@ -365,6 +377,14 @@ p {
   background-color: #fff;
   box-shadow: none;
   opacity: 1;
+}
+
+.construction h4 {
+  /* font-family: 'Electrolize', sans-serif; */
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 15px;
+  color: #AA4A44
+;
 }
 
 .work-name {
@@ -499,8 +519,12 @@ p {
 }
 
 .section-work {
-  margin-top: 0px;
-  padding-top: 78px;
+  
+  /* padding-top: 78px; */
+  overflow: hidden;
+  max-width: 1000px;
+  margin: auto;
+  
 }
 
 .hero-img {
